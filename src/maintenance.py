@@ -14,4 +14,4 @@ def run_maintenance(conn):
     
     clear_old_logs(conn, days=30)
 
-    print("=== Обслуживание завершено успешно ===")
+    print("=== Обслуживание завершено успешно ===") 

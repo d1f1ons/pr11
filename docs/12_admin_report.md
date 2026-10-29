@@ -59,4 +59,4 @@ conn.backup() (Задание 2.2)	Безопасный способ. Созда
 Размер страницы (PRAGMA page_size): 4096 байт.
 Количество страниц (PRAGMA page_count): 87 страниц.
 Общий размер базы: $4096 \times 87 = 356352$ байт ($\approx 348$ КБ).
-Список таблиц (SELECT name FROM sqlite_master WHERE type='table'): users, roles, products, orders, audit_log.
+Список таблиц (SELECT name FROM sqlite_master WHERE type='table'): users, roles, products, orders, audit_log
